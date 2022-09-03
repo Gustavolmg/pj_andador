@@ -4,7 +4,7 @@
 
     const site_name = "Mercadinho budega";
     const site_pcolor = "green";
-    const site_logo = "asset\img\logo.jpg";
+    const site_logo = "asset\img\logo.png";
 
     $dir_css = $dir_root . "\app\css";
     $dir_js = $dir_root . "\app\js";
