@@ -19,14 +19,14 @@
      <div class="container-fluid bg-secondary">
 
           <!-- Header -->
-     <div class="row justify-content-md-center alert alert-success " style="border-bottom-right-radius: 40%; border-bottom-left-radius: 40%;">
+     <div class="row justify-content-md-center alert alert-success " style="border-bottom-right-radius: 20%; border-bottom-left-radius: 20%;">
 
           <!-- Barra de navegação -->
-               <div class="col col-md-auto">
+               <div class="col-auto col-md-auto">
                     <nav class="navbar navbar-expand-lg navbar-light" >
 
                          <!-- Logo -->
-                         <a class="navbar-brand" href="#"><img src="<?php echo site_logo ?>" width="70" height="70" ></a>
+                         <a class="navbar-brand" href="#"><img src="<?php echo site_logo ?>" width="90" height="90" ></a>
 
                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                          <span class="navbar-toggler-icon"></span>
@@ -72,7 +72,6 @@
       <div class="row ">
           
           <!-- Carrosel -->
-          <div class="row">
                 <div class="col-12">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                            <ol class="carousel-indicators">
@@ -80,15 +79,15 @@
                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                            </ol>
-                           <div class="carousel-inner">
+                           <div class="carousel-inner" >
                              <div class="carousel-item active">
-                               <img class="d-block w-50 " src="asset/img/c1.jpg" alt="Primeiro Slide">
+                               <img class="d-block w-100" src="asset/icon/c1.jpg" alt="Primeiro Slide">
                              </div>
                              <div class="carousel-item">
-                               <img class="d-block w-50 " src="asset/img/c1.jpg" alt="Segundo Slide">
+                               <img class="d-block w-100" src="asset/icon/c1.jpg" alt="Segundo Slide">
                              </div>
                              <div class="carousel-item">
-                               <img class="d-block w-50" src="asset/img/c1.jpg" alt="Terceiro Slide">
+                               <img class="d-block w-100" src="asset/icon/c1.jpg" alt="Terceiro Slide">
                              </div>
                            </div>
                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -101,14 +100,87 @@
                            </a>
                     </div>
                 </div>
-          </div>
 
       </div>
+
+      <!-- conteudo principal do site -->
+     <div class="row justify-content-center">
+
+                    <div class="col-auto p-3">
+
+                         <p>
+                              <strong class="h1">
+                                   Categorias
+                              </strong>
+                         </p> 
+                                   <div class="card" style="width: 18rem;">
+                                        <div class="card-img-top">
+                                             <img src="asset/icon/cat_fruit.jfif">
+                                        </div>
+                                        <div class="card-body">
+                                             <div class="card-text">descrição do item</div>
+                                        </div>
+                                   </div>
+
+
+                    </div>
+     </div>
 
           <!-- Footer -->
-      <div class="row">
-           
-      </div>
+     <div class="row justify-content-center bg-white">
+
+          <div class="col-xl-3">
+               
+               <ol>
+                    <ul><strong>Quem somos?</strong></ul>
+                    <ul>Redes sociais empresa:</ul>
+                    <ul><a href="#">facebook</a></ul>
+                    <ul><a href="#">twitter</a></ul>
+                    <ul><a href="#">instagram</a></ul>
+                    <ul>Endereço:</ul>
+                    <ul>Novo Horizonte/Aroeira</ul>
+                    <ul>Conceição do Coité BA</ul>
+                    <ul>Cep: 48730-000</ul>
+               </ol>
+
+          </div>
+          
+          <div class="col-xl-3">
+
+               
+               <ol>
+                    <ul><strong>Area do funcionario</strong></ul>
+                    <ul><a href="#">Entrar</a></ul>
+                    <ul><a href="#">Pedir Cadastro</a></ul>
+                    <ul><a href="#">Termos de Serviço</a></ul>
+               </ol>
+
+          </div>
+
+          <div class="col-xl-3">
+
+               
+               <ol>
+                    <ul><strong>Pagamento</strong></ul>
+                    <ul><a href="#">Cartão de credito/debito</a></ul>
+                    <ul><a href="#">Boletos</a></ul>
+                    <ul><a href="#">Pix</a></ul>
+                    <ul><a href="#">Segunda Via</a></ul>
+               </ol>
+
+          </div>   
+
+          <div class="col-xl-3">
+
+               <ol>
+                    <ul><strong>Estamos aqui para ajudar</strong></ul>
+                    <ul>contate-nos:</ul>
+                    <ul>email: ###########@gmail.com</ul>
+                    <ul>Telefone: (00) 90000-0000</ul>
+               </ol>
+
+          </div>        
+     </div>
 
       <!-- fim -->
      </div>
