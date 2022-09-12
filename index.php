@@ -53,7 +53,7 @@
                               <li class="nav-item alert-link">
                               <a class="nav-link" href="#">Marcas</a>
                               </li>
-                         </ul>
+                              <li class="nav-item">
                               <form class="form-inline">
                                    <div class="input-group">
                                         <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
@@ -62,6 +62,17 @@
                                         </div>
                                    </div>
                               </form>
+                              </li>
+                              <li class="nav-item dropdown ml-3">
+                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img class="" src="asset/icon/perfil.png">
+                                   </a>
+                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                       <a class="dropdown-item" href="#">Entrar</a>
+                                       <a class="dropdown-item" href="#">Registrar-se</a>
+                                     </div>
+                              </li>
+                         </ul>
                          </div>
                     </nav>
                </div>
@@ -72,7 +83,7 @@
       <div class="row ">
           
           <!-- Carrosel -->
-                <div class="col-12">
+                <div class="col-12 pb-2">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                            <ol class="carousel-indicators">
                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -104,32 +115,213 @@
       </div>
 
       <!-- conteudo principal do site -->
-     <div class="row justify-content-center">
+     <div class="row justify-content-center bg-light">
 
-                    <div class="col-auto p-3">
+                    <div class="col-auto p-2" >
 
                          <p>
                               <strong class="h1">
                                    Categorias
                               </strong>
                          </p> 
-                                   <div class="card" style="width: 18rem;">
+
+                              <div class="card-deck p-2">
+
+                                   <div class="card border-dark" style="width: 16rem;">
                                         <div class="card-img-top">
-                                             <img src="asset/icon/cat_fruit.jfif">
+                                                  <img class="" src="asset/icon/cat_fruit.jfif">
                                         </div>
-                                        <div class="card-body">
-                                             <div class="card-text">descrição do item</div>
-                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
                                    </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_livros.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_moveis.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class=" card-img-top">
+                                                  <img class="" src="asset/icon/cat_roupas.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                              </div>
+
+                              <div class="card-deck p-2">
+
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+
+                              </div>
+
+
+                              <div class="card-deck p-2">
+
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Categoria do item</div>
+                                             <div class="card-footer">[preço] [quantidade]</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Mais Categorias</div>
+                                             <div class="card-footer">Explore Mais</div>
+                                   </div>
+
+                              </div>
 
 
                     </div>
+
+                    <div class="col-auto p-2">
+
+                         <p>
+                              <strong class="h1">
+                                   Destaques
+                              </strong>
+                         </p> 
+
+                         <div class="card-deck p-2">
+
+                              
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/img/senhor_aneis.jpg">
+                                        </div>
+                                             <div class="card-body">Senhor dos Anais</div>
+                                             <div class="card-footer">121,50R$</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">nome do item</div>
+                                             <div class="card-footer">descriçao do item</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">nome do item</div>
+                                             <div class="card-footer">descriçao do item</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">nome do tem</div>
+                                             <div class="card-footer">descricao do item</div>
+                                   </div>
+
+                         </div>
+
+                    </div>
+
+                    <div class="col-auto p-2">
+
+                         <p>
+                              <strong class="h1">
+                                   Promoções
+                              </strong>
+                         </p> 
+
+                         <div class="card-deck p-2">
+
+                              
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">Nome do item</div>
+                                             <div class="card-footer">descriçao do item</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">nome do item</div>
+                                             <div class="card-footer">descriçao do item</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">nome do item</div>
+                                             <div class="card-footer">descriçao do item</div>
+                                   </div>
+                                   <div class="card border-dark" style="width: 16rem;">
+                                        <div class="card-img-top">
+                                                  <img class="" src="asset/icon/cat_escritorio.jfif">
+                                        </div>
+                                             <div class="card-body">nome do tem</div>
+                                             <div class="card-footer">descricao do item</div>
+                                   </div>
+
+                         </div>
+
+                    </div>
+
+
      </div>
 
           <!-- Footer -->
-     <div class="row justify-content-center bg-white">
+     <div class="row justify-content-center bg-white p-3">
 
-          <div class="col-xl-3">
+          <div class="col-auto">
                
                <ol>
                     <ul><strong>Quem somos?</strong></ul>
@@ -145,7 +337,7 @@
 
           </div>
           
-          <div class="col-xl-3">
+          <div class="col-auto">
 
                
                <ol>
@@ -157,7 +349,7 @@
 
           </div>
 
-          <div class="col-xl-3">
+          <div class="col-auto">
 
                
                <ol>
@@ -170,7 +362,7 @@
 
           </div>   
 
-          <div class="col-xl-3">
+          <div class="col-auto">
 
                <ol>
                     <ul><strong>Estamos aqui para ajudar</strong></ul>
