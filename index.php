@@ -64,11 +64,11 @@
                               </form>
                               </li>
                               <li class="nav-item dropdown ml-3">
-                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   <a class="nav-link dropdown-toggle" href="#" id="user_menu" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
                                         <img class="" src="asset/icon/perfil.png">
                                    </a>
-                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                       <a class="dropdown-item" href="#">Entrar</a>
+                                     <div class="dropdown-menu" id="menu_navbar" aria-labelledby="dropdownMenuButton">
+                                       <a class="dropdown-item" href="#" onclick="open_login();">Entrar</a>
                                        <a class="dropdown-item" href="#">Registrar-se</a>
                                      </div>
                               </li>
@@ -381,6 +381,7 @@
      <script src='app\js\popper.min.js'></script>
      <script src='app\js\jquery-3.3.1.slim.min.js'></script>
      <script src='app\js\bootstrap.min.js'></script>
-     
+          <!-- index.js -->
+     <script src="app\js\index.js"></script>
 </body>
 </html>
