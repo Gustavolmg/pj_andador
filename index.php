@@ -63,8 +63,8 @@
                                    </div>
                               </form>
                               </li>
-                              <li class="nav-item dropdown ml-3">
-                                   <a class="nav-link dropdown-toggle" href="#" id="user_menu" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
+                              <li class="nav-item dropdown ml-3" id="user_menu">
+                                   <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
                                         <img class="" src="asset/icon/perfil.png">
                                    </a>
                                      <div class="dropdown-menu" id="menu_navbar" aria-labelledby="dropdownMenuButton">
