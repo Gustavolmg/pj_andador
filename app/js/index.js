@@ -1,12 +1,18 @@
   var contador_menu = 0;
   var menu_navbar = document.getElementById('menu_navbar');
 
+  var menu_navbar_o = `
+  <a class="dropdown-item" href="#" onclick="open_lr('login');">Entrar</a>
+  <a class="dropdown-item" href="#" onclick="open_lr('register');">Registrar-se</a>
+  `;
+
 
 function open_lr(open_chosen) {
 
   var open_login =`
   <form class='px-4 py-3 h6' style='width: 18rem;'>
     <div class='form-group'>
+    <div class="form-group"><strong class="h4 pb-4">Entrar</strong></div>
       <label for='email_login'>
       Email</label>
       <input type='email' class='form-control' id='email_login' placeholder='email@exemplo.com'>
@@ -25,6 +31,7 @@ function open_lr(open_chosen) {
   `;
 
   var open_register = `<form class='px-4 py-3 h6' style='width: 18rem;'>
+  <div class="form-group"><strong class="h4 pb-4">Registrar-se</strong></div>
   <div class='form-group'>
          <label for='email_singin'>
          Email</label>
@@ -36,7 +43,7 @@ function open_lr(open_chosen) {
          <input type='password' class='form-control' id='password_singin' placeholder='Senha'>
    </div>
    <div class="form-group">
-        <label for="password_singin_c">confirmar senha</label>
+        <label for="password_singin_c">Confirmar senha</label>
         <input type="password" class="form-control" id="password_singin_c" placeholder="Confirme Senha">
    </div>
    <button type='submit' class='btn btn-primary'>Registrar-se</button>
@@ -57,10 +64,7 @@ function open_lr(open_chosen) {
 
 // Volta para o menu original
 function back_menu() {
-  menu_navbar.innerHTML = `
-  <a class="dropdown-item" href="#" onclick="open_lr('login');">Entrar</a>
-  <a class="dropdown-item" href="#" onclick="open_lr('register');">Registrar-se</a>
-  `;
+  menu_navbar.innerHTML = menu_navbar_o;
   $(menu_navbar).dropdown('toggle');
   contador_menu = 0;
 
